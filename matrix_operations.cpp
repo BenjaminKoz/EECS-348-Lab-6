@@ -34,6 +34,7 @@ int main() {
     matrix_add(matrix1, matrix2, n);
     matrix_multiply(matrix1, matrix2, n);
     matrix_subtract(matrix1, matrix2, n);
+    return 0;
 }
 
 void matrix_prints(int a[100][100], int b[100][100], int size){
